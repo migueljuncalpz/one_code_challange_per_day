@@ -37,7 +37,6 @@ public class OneChallengePerDayApplication{
 
                 case 1:
                     Day1.printHelp();
-                    ;
                     while(!exit) {
                         String line = scanner.nextLine();
                         if (line.equals("exit")) {
