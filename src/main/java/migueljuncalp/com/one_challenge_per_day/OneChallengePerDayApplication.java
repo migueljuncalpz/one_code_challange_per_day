@@ -1,7 +1,8 @@
 package migueljuncalp.com.one_challenge_per_day;
 
 import dailychallenge.DailyChallenge;
-import dailychallenge.day_1.Day1;
+import dailychallenge.Day1;
+import dailychallenge.Day2;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.HashMap;
@@ -18,7 +19,7 @@ public class OneChallengePerDayApplication {
         Map<Integer, DailyChallenge> challenges = new HashMap<>();
 
         challenges.put(1, new Day1());
-        // challenges.put(2, new Day2());
+        challenges.put(2, new Day2());
         // challenges.put(3, new Day3());
 
         boolean running = true;

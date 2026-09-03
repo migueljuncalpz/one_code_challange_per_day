@@ -1,6 +1,4 @@
-package dailychallenge.day_1;
-
-import dailychallenge.DailyChallenge;
+package dailychallenge;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -16,6 +14,11 @@ public class  Day1 implements DailyChallenge {
     @Override
     public String getName(){
         return("1. Día 1 - Frecuencia de palabras");
+    }
+    @Override
+    public String getGoals(){
+        return("1. Día 1 - Contar frecuencias de palabras usando HashMap.\n" +
+                "Rutina: 5 min requisitos · 25 min solución · 10 min pruebas · 10 min explicación · 5 min notas.saddd" );
     }
 
     public void run(Scanner scanner){
